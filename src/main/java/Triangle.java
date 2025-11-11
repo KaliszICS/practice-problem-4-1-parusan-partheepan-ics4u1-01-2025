@@ -8,9 +8,10 @@ class Triangle { //notice that it starts with a capital letter
 	private double angle2;
 	private double angle3;
 
+	//always use this.varName when referring to instance variables
 	//Constructor
-	public Triangle(double s1, double s2, double s3, double a1, double a2, double a3) {
-		this.side1 = s1;
+	public Triangle(double side1, double s2, double s3, double a1, double a2, double a3) {
+		this.side1 = side1;
 		this.side2 = s2;
 		this.side3 = s3;
 		this.angle1 = a1;
